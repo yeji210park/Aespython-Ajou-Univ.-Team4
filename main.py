@@ -20,7 +20,7 @@ for i in range(8,13):
 
 # 열 이름 안들어가 있는 것들 넣어주기
 job_get_loss = job_get_loss.rename(columns={'Unnamed: 0' : '항목'})
-print(job_get_loss.to_string())
+
 
 # 필요없는 행 삭제 index 8 ~ 12
 for i in range(7,12):
